@@ -1,24 +1,23 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react'
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
+import axios from 'axios'
+import List from './List';
+import Edit from './Edit';
 
 function App() {
+  let [list, setList] = useState([])
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <HashRouter>
+
+      <Switch>
+        <Route exact path="/" render={props => <List />} />
+        <Route exact path="/edit/:id" render={(props) => <Edit {...props}/>} />
+      </Switch>
+
+    </HashRouter>
   );
 }
 
