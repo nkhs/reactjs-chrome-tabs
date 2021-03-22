@@ -32,7 +32,7 @@ html.dark-theme .made-by {
 .made-by-logo { display: block; height: 3.5em; width: 7em; margin: 0 auto .75em }
 
 .tbmargin9 {
-  --tab-content-margin: 9p
+  --tab-content-margin: 9px;
 }
 .google-fav {
   background-image: url('./demo/images/google-favicon.ico')
