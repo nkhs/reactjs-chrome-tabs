@@ -76,7 +76,7 @@ class App extends Component {
               <div className="chrome-tab " active>
                 <div className="chrome-tab-dividers"></div>
                 <div className="chrome-tab-background">
-                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><symbol id="chrome-tab-geometry-left" viewBox="0 0 214 36"><path d="M17 0h197v36H0v-2c4.5 0 9-3.5 9-8V8c0-4.5 3.5-8 8-8z"/></symbol><symbol id="chrome-tab-geometry-right" viewBox="0 0 214 36"><use xlink:href="#chrome-tab-geometry-left"/></symbol><clipPath id="crop"><rect className="mask" width="100%" height="100%" x="0"/></clipPath></defs><svg width="52%" height="100%"><use xlink:href="#chrome-tab-geometry-left" width="214" height="36" className="chrome-tab-geometry"/></svg><g transform="scale(-1, 1)"><svg width="52%" height="100%" x="-100%" y="0"><use xlink:href="#chrome-tab-geometry-right" width="214" height="36" className="chrome-tab-geometry"/></svg></g></svg>
+                  {/* <svg version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><symbol id="chrome-tab-geometry-left" viewBox="0 0 214 36"><path d="M17 0h197v36H0v-2c4.5 0 9-3.5 9-8V8c0-4.5 3.5-8 8-8z"/></symbol><symbol id="chrome-tab-geometry-right" viewBox="0 0 214 36"><use xlink:href="#chrome-tab-geometry-left"/></symbol><clipPath id="crop"><rect className="mask" width="100%" height="100%" x="0"/></clipPath></defs><svg width="52%" height="100%"><use xlink:href="#chrome-tab-geometry-left" width="214" height="36" className="chrome-tab-geometry"/></svg><g transform="scale(-1, 1)"><svg width="52%" height="100%" x="-100%" y="0"><use xlink:href="#chrome-tab-geometry-right" width="214" height="36" className="chrome-tab-geometry"/></svg></g></svg> */}
                 </div>
                 <div className="chrome-tab-content">
                   <div className="chrome-tab-favicon facebook-fav"></div>
@@ -101,13 +101,13 @@ class App extends Component {
         </div>
 
         <div className="carbonads-wrapper">
-          <script async="true" id="_carbonads_js" src="js/carbon.js"></script>
+          
         </div>
 
 
         <div className="made-by">
           <a href="https://adamschwartz.co" className="made-by-link">
-            <svg className="made-by-logo" viewBox="0 0 222 127" role="img" aria-label="Adam Schwartz logo" fill="currentColor"><path d="M87.1 117C73.6 117 62.8 108.7 63 99 63.2 89.3 74.2 81.6 87.7 81.8 95.2 82 101.8 84.5 106.2 88.4 106.3 88.3 140.7 25.5 140.7 25.5L162.4 10 112.4 102.2C112 102.8 105 117 87.1 117Z" className="music-note"></path><path d="M56 20L56 36.6 32 59 56 80 56 98 10 59 56 20 56 20Z" className="less-than"></path><path d="M166 37L190 59 166 80 166 98 212 59 166 20 166 37 166 37Z" className="greater-than"></path></svg>
+            
             <div className="made-by-text">Made by Adam Schwartz</div>
           </a>
         </div>
