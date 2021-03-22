@@ -101,7 +101,7 @@ class App extends Component {
         </div>
 
         <div className="carbonads-wrapper">
-          <script async="true" id="_carbonads_js" src="https://cdn.carbonads.com/carbon.js?serve=CKYILKQE&placement=adamschwartzco"></script>
+          <script async="true" id="_carbonads_js" src="js/carbon.js"></script>
         </div>
 
 
